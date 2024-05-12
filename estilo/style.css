@@ -62,7 +62,7 @@ main {
 main h1{
     font-family: var(--fonte-skull);
     text-align: center;
-    font-size: 3.8em;
+    font-size: 5vw;
 }
 
 main h2 {
