@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@font-face {
+    font-family: 'skull';
+    src: url('..//fonte/1\ Punk.ttf') format(truetype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+:root {
+    --cor1: rgba(57, 14, 14, 0.69);
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-skull: 'skull', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor1);
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(132, 131, 131), darkgrey, rgb(229, 225, 225), darkgrey);
+    height: 40px;
+    text-align: right;
+    padding-top: 6px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.312);
+    transition-duration: .7s;
+}
+
+header a:hover {
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 8px;
+}
+
+main {
+    max-width: 900px;
+    min-width: 280px;
+    margin: auto;
+    
+}
+
+main h1{
+    font-family: var(--fonte-skull);
+    text-align: center;
+    font-size: 3.8em;
+}
+
+main h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.8em;
+}
+
+main > section > article {
+    display: block;
+    margin-bottom: 150px;
+}
+
+main > section > article > img, p {
+    display: inline-block;
+}
+
+main > section > article > img {
+    max-width: 310px;
+    min-width: 10%;
+    margin-right: 20px;
+}
+
+main > section > article > p {
+    
+    background-color: rgba(169, 169, 169, 0.314);
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    min-width: 120px;
+    max-width: 400px;
+    line-height: 1.5em;
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 1.6px 1.6px 0px rgba(0, 0, 0, 0.218);
+    margin-bottom: 20px;
+}
+
+main > section > aside {
+    background: white url('../imagens/pexels-cottonbro-8042008.jpg') center center no-repeat fixed;
+    background-size: cover;
+    padding: 15px;
+}
+
+main > section > aside p {
+    background-color: rgba(255, 255, 255, 0.19);
+    font: normal 1.3em var(--fonte-padrao);
+    color: black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.138);
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+div#video {
+    background-color: rgba(255, 255, 255, 0.377);
+    position: relative;
+    padding-bottom: 50% ;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main > section#personalizado {
+    background: white url('../imagens/sensei.webp') center center no-repeat fixed;
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > section#personalizado p {
+    background-color: rgba(255, 255, 255, 0.19);
+    font: normal 1.3em var(--fonte-padrao);
+    color: black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.784);
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer strong {
+    color: white;
+    
+}
