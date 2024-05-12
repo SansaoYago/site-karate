@@ -80,9 +80,8 @@ main > section > article > img, p {
 }
 
 main > section > article > img {
-    max-width: 310px;
-    min-width: 10%;
-    margin-right: 20px;
+    width: 20%;
+    margin-right: 20%;
 }
 
 main > section > article > p {
