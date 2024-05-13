@@ -91,8 +91,8 @@ main > section > article > p {
     color: white;
     font-weight: 600;
     position: absolute;
-    min-width: 120px;
-    max-width: 400px;
+    min-width: 170px;
+    max-width: 500px;
     line-height: 1.5em;
     padding: 15px;
     border-radius: 10px;
