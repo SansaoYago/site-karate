@@ -143,6 +143,7 @@ main > section#personalizado p {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.784);
     padding: 10px;
     line-height: 1.5em;
+    border-radius: 10px;
 }
 
 footer {
