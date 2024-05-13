@@ -149,9 +149,14 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 5px;
 }
 
 footer strong {
     color: white;
-    
+    transition-duration: 1s; 
+}
+
+footer strong#nome:hover {
+    color: rgba(73, 18, 18, 0.833);
 }
