@@ -72,7 +72,8 @@ main h2 {
 
 main > section > article {
     display: block;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    padding: 5px;
 }
 
 main > section > article > img, p {
@@ -81,7 +82,6 @@ main > section > article > img, p {
 
 main > section > article > img {
     width: 25%;
-    padding: 5px;
 }
 
 main > section > article > p {
