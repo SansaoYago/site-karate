@@ -92,7 +92,7 @@ main > section > article > p {
     position: absolute;
     min-width: 170px;
     max-width: 500px;
-    line-height: 1.5em;
+    line-height: 1.1em;
     padding: 15px;
     border-radius: 10px;
     text-shadow: 1.6px 1.6px 0px rgba(0, 0, 0, 0.218);
