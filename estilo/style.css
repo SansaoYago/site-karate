@@ -59,6 +59,15 @@ main {
     
 }
 
+main strong.kyokushin {
+    color: #521E00;
+    
+}
+
+main strong.nome {
+    color: var(--cor1);
+}
+
 main h1{
     font-family: var(--fonte-skull);
     text-align: center;
@@ -87,7 +96,7 @@ main > section > article > img {
 main > section > article > p {
     
     background-color: rgba(169, 169, 169, 0.314);
-    font-size: 1em;
+    font-size: 1.1em;
     color: white;
     font-weight: 600;
     position: absolute;
