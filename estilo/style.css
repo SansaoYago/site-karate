@@ -72,7 +72,8 @@ main h2 {
 
 main > section > article {
     display: block;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    padding: 5px;
 }
 
 main > section > article > img, p {
@@ -80,7 +81,7 @@ main > section > article > img, p {
 }
 
 main > section > article > img {
-    width: 20%;
+    width: 25%;
 }
 
 main > section > article > p {
@@ -92,7 +93,7 @@ main > section > article > p {
     position: absolute;
     min-width: 170px;
     max-width: 500px;
-    line-height: 1.5em;
+    line-height: 1.1em;
     padding: 15px;
     border-radius: 10px;
     text-shadow: 1.6px 1.6px 0px rgba(0, 0, 0, 0.218);
@@ -140,7 +141,7 @@ main > section#personalizado p {
     background-color: rgba(255, 255, 255, 0.19);
     font: normal 1.3em var(--fonte-padrao);
     color: black;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.784);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.324);
     padding: 10px;
     line-height: 1.5em;
     border-radius: 10px;
@@ -154,6 +155,7 @@ footer {
 }
 
 footer strong {
+    font-weight: bolder;
     color: white;
     transition-duration: 1s; 
 }
